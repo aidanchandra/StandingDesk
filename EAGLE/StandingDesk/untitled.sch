@@ -13805,26 +13805,26 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 </net>
 <net name="M_ONE" class="0">
 <segment>
-<pinref part="J1" gate="A" pin="4"/>
-<wire x1="302.26" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="281.94" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="OUT1"/>
 <wire x1="121.92" y1="111.76" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
 <label x="127" y="111.76" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="M_TWO" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="5"/>
 <wire x1="302.26" y1="101.6" x2="281.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="281.94" y="101.6" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="M_TWO" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="OUT2"/>
 <wire x1="121.92" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="A" pin="4"/>
+<wire x1="302.26" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="281.94" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_1" class="0">
@@ -14201,6 +14201,16 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,121.92,104.14,U1,PGND,GND,,,"/>
+<approved hash="104,1,81.28,111.76,U1,VM,19V,,,"/>
+<approved hash="104,1,81.28,104.14,U1,VCP,N$4,,,"/>
+<approved hash="104,1,121.92,81.28,U1,CPH,N$2,,,"/>
+<approved hash="104,1,121.92,73.66,U1,CPL,N$1,,,"/>
+<approved hash="104,1,121.92,58.42,U1,PAD,GND,,,"/>
+<approved hash="113,1,-31.1573,136.053,J3,,,,,"/>
+<approved hash="113,1,145.457,220.817,J4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
